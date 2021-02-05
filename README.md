@@ -133,4 +133,4 @@ have a consistent style with the rest of the app.
 ---
 
 ### ***DO NOT PROCEED UNTIL YOU'RE READY TO START*** 
-## *[CLICK HERE TO BEGIN ASSESSMENT](https://classroom.github.com/a/lAcWVJmq)*
+## *[CLICK HERE TO BEGIN ASSESSMENT](https://classroom.github.com/a/8dEIg2jQ)*
