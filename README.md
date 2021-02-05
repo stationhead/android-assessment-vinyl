@@ -129,8 +129,8 @@ Nor will you need to find assets not included in the repo (e.g. fonts). For view
 or elements not covered by these mockups, you should extrapolate from what's there
 and implement them in a manner that you think is best.  Those elements should
 have a consistent style with the rest of the app.
-  
-\
+
+---
 
 ### ***DO NOT PROCEED UNTIL YOU'RE READY TO START*** 
-## *[CLICK HERE TO BEGIN ASSESSMENT](https://classroom.github.com/a/lAcWVJmq)*
+## *[CLICK HERE TO BEGIN ASSESSMENT](https://classroom.github.com/a/8dEIg2jQ)*
