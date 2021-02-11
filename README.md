@@ -6,7 +6,6 @@ We created this project to test your Android skills through hands-on development
 Unlike many programming tests, this one is designed to test your abilities in a real-world
 environment, as close as possible to your actual day-to-day work.
 
-
 For this project, we're going to create a toy app for displaying Top 40 charts over a selection 
 of music genres and display a skewmorphic representation of a record playing.
 
@@ -24,12 +23,12 @@ through Github Classroom.  _Do Not_ click on that link until you have read and u
 instructions.
 
 We estimate that completing the assessment should take a typical applicant
-1-2 hours.  If you haven't completed the
- task by the 3 hour mark, submit what you have, even if it's unfinished. 
+2-4 hours.  If you haven't completed the
+ task by the 6 hour mark, submit what you have, even if it's unfinished. 
 Your work doesn't have to be perfect to move on to the next round.
 
 Your time begins when you accept
-the assignment through Github Classroom.  You can review these instructions, the mockups, and the base repo
+the assignment through Github Classroom.  You can review these instructions and the mockups
 for as long as you'd like before starting the assessment.
 
 ##### 2. Clone the repository and open the project.
@@ -46,15 +45,14 @@ In general, there are no 'right' answers, as long as the result matches the feat
 However, our codebase is in Kotlin, so you should work in Kotlin and not Java (or Scala, Clojure, etc).
 
 Pre-existing files should not be edited unless they have a `TODO` or other comment indicating where you 
-can add code.  In particular, the public interface for the `GetGenreList` class returns an RxJava Observable. 
-You may not modify that file.  
+can add code.  In particular, the `GetGenreList` class cannot be modified. 
 
-You may want to brush up on RxJava if you're not familiar with it.  As a reminder, if you do this before
-accepting the assignment through Github classroom, it does not count against your three hours of work time.
+That class returns as RxJava Observable. You may want to brush up on RxJava if you're not familiar with it.  As a reminder, if you do this before
+accepting the assignment through Github classroom, it does not count against your time.
 
 ##### 4. Commit your work and submit a Pull Request on Github.
 Once you've finished your work, commit it to Git and push it to Github. Once pushed, open the project on Github and submit
-a Pull Request from your branch into the `master` branch of the repo. Once you've created the PR, email [Andrew](mailto:andrew@stationhead.com) to let
+a Pull Request from your branch into the `main` branch of the repo. Once you've created the PR, email [Andrew](mailto:andrew@stationhead.com) to let
 him know you've completed the task.  It may take up to a week for us to review your work and contact you regarding 
 next steps.
 
@@ -103,13 +101,11 @@ it does not have an implementation.  The Genre data class has the url for the AP
 
     - The album art for the track should appear as the label of the record.
 
-        * If the track is from a single, than the small record image should be used, and it should rotate at 45 rpm (revolutions per minute)
+    - it should rotate at 45 rpm (revolutions per minute)
 
-        * If the track is from an album, than the large record image should be used, and it should rotate at 33⅓ rpm
+    - _Note:  It's not obvious in the mockups, but the spindle hole in the middle of the record should be fully transparent, and show through to the view below_
 
-        * _Note:  It's not obvious in the mockups, but the spindle hole in the middle of the record should be fully transparent, and show through to the view below_
-
-* When the record animation is visible, tapping outside the record should dismiss the record animation.
+* When the record is visible, tapping outside the record should dismiss the record animation.
 
 * Tapping on the record animation should pause (or if paused, restart) the rotation.
 

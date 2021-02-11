@@ -58,9 +58,6 @@ dependencies {
         implementation 'androidx.lifecycle:lifecycle-common-java8:2.2.0'
         implementation 'androidx.lifecycle:lifecycle-reactivestreams-ktx:2.2.0'
 
-        // Dagger
-        api 'com.google.dagger:dagger:2.31.2'
-        kapt 'com.google.dagger:dagger-compiler:2.31.2'
 
         // Logging
         implementation 'com.jakewharton.timber:timber:4.7.1'
