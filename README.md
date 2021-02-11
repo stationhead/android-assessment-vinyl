@@ -1,4 +1,4 @@
-# Stationhead Android Takehome Assessemet
+# Stationhead Android Takehome Assessment
 
 #### Welcome!
 We created this project to test your Android skills through hands-on development. 
