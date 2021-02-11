@@ -53,7 +53,8 @@ accepting the assignment through Github classroom, it does not count against you
 
 ##### 4. Commit your work and submit a Pull Request on Github.
 Once you've finished your work, commit it to Git and push it to Github. Once pushed, open the project on Github and submit
-a Pull Request from your branch into the `main` branch of the repo. Once you've created the PR, email [Andrew](mailto:andrew@stationhead.com) to let
+a Pull Request from your branch into the `main` branch of the repo. If you did not finish the assessment, include a description
+of what features you implemented and what work is still to do. Once you've created the PR, email [Andrew](mailto:andrew@stationhead.com) to let
 him know you've completed the task.  It may take up to a week for us to review your work and contact you regarding 
 next steps.
 
