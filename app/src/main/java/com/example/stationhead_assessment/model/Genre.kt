@@ -1,5 +1,6 @@
 package com.example.stationhead_assessment.model
 
+// DO NOT modify this file.
 data class Genre(
     val id: String,
     val displayName: String,
